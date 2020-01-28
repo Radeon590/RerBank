@@ -6,7 +6,8 @@ namespace RerBank
     {
         static void Main(string[] args)
         {
-            
+            Render render = new Render(0);
+            render.Window();
         }
     }
 }

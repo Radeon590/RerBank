@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RerBank", "RerBank\RerBank.csproj", "{B2E82202-3A80-4A93-A54F-F1DC85C6CFE5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RerBank", "RerBank\RerBank.csproj", "{F46E692F-7784-469E-B816-203E47C4E81D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B2E82202-3A80-4A93-A54F-F1DC85C6CFE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B2E82202-3A80-4A93-A54F-F1DC85C6CFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B2E82202-3A80-4A93-A54F-F1DC85C6CFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B2E82202-3A80-4A93-A54F-F1DC85C6CFE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F46E692F-7784-469E-B816-203E47C4E81D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F46E692F-7784-469E-B816-203E47C4E81D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F46E692F-7784-469E-B816-203E47C4E81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F46E692F-7784-469E-B816-203E47C4E81D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {75F9BBDB-A6FA-4A21-B155-D4409FBA720B}
+		SolutionGuid = {68E3C606-2242-4A07-BA9F-1D08C95638F0}
 	EndGlobalSection
 EndGlobal
