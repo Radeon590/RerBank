@@ -7,35 +7,28 @@ namespace RerBank
 
         //Values
         private int page;
-        private int Acc = 0;
+        private int strings;
         //
 
         //Strings
-        private string S1 = "/////////RerBank/////////";
-        private string S2_0 = "//Menu//";
-        private string S2_1 = "//Scores//";
-        private string S2_2 = "";
+        private string S1;
+        private string S2;
         //
 
         //Construct
-        public Render(int page)
+        public Render(int page,int strings)
         {
             this.page = page;
+            this.strings = strings;
         }
         //
 
-        //Geter and Seter
-        public int getPage() {return page;}
-        public void setPage(int page) { this.page = page;}
-        //
-
         //Window
-        public void Window()
+        public void window()
         {
             if (page == 0)
             {
                 Console.WriteLine(S1);
-                Console.WriteLine(S2_0);
             }
         }
         //

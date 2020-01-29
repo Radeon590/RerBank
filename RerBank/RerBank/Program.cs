@@ -6,8 +6,8 @@ namespace RerBank
     {
         static void Main(string[] args)
         {
-            Render render = new Render(0);
-            render.Window();
+            Keys KK = new Keys(Console.ReadKey(true).KeyChar);
+            
         }
     }
 }
