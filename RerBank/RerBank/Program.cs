@@ -6,8 +6,9 @@ namespace RerBank
     {
         static void Main(string[] args)
         {
+
             Keys KK = new Keys(Console.ReadKey(true).KeyChar);
-            
+            KK.keyKnow();
         }
     }
 }

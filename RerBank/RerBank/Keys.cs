@@ -29,7 +29,8 @@ namespace RerBank
                 page--;
             }
             //
-            Render r = new Render(page, strings);
+            Window r = new Window(page, strings);
+            r.window();
 
             //
         }
