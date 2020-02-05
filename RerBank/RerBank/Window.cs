@@ -7,12 +7,13 @@ namespace RerBank
     {
 
         //Values
+        public bool works = true;
         private int page;
         private int strings;
         //
 
         //Constructor
-        public Window(int page,int strings)
+        public Window(int page, int strings)
         {
             this.page = page;
             this.strings = strings;
@@ -22,125 +23,158 @@ namespace RerBank
         //Window
         public void window()
         {
+            
             List<string> names = new List<string>();
             //Strings
-            string[] S1 = new string[12];
-            S1[0] = "Menu";
-            S1[1] = "Scores";
-            S1[2] = "Sisn in";
-            S1[3] = "Sign up";
-            S1[4] = "Skip day?";
-            S1[5] = "Close?";
-            S1[6] = "Exit?";
-            S1[7] = "Froze?";
-            S1[8] = "Transfer to:";
-            S1[9] = "Unfroze?";
-            S1[10] = "Sign out?";
-            S1[11] = "Transfer?";
+            const string S = "//////";
+            const string S0 = "Menu";
+            const string S1 = "Scores";
+            const string S2 = "Sign in";
+            const string S3 = "Sign up";
+            const string S4 = "Sign out?";
+            const string S5 = "Skip day?";
+            const string S6 = "Close?";
+            const string S7 = "Exit?";
+            const string S8 = "Froze?";
+            const string S9 = "Transfer to:";
+            const string S10 = "Unfroze?";
+            const string S11 = "Transfer?";
+            const string S12 = "Name:";
+            const string S13 = "Password:";
+            const string S14 = "Yes";
+            const string S15 = "No";
+            const string S16 = "to score:";
+            const string S17 = "Score:";
+            const string S18 = "New Score";
+            const string S19 = "Per:";
+            const string S20 = "Exit";
+            const string S21 = "Close";
+            const string S22 = "Froze";
+            const string S23 = "Transfer";
+            const string S24 = "Sign out";
+            const string S25 = "Skip day";
+            const string S26 = "Unfroze";
             //
-            string S2 = "///////";
-            //
-            string[] S3 = new string[4];
-            S3[0] = "Scores";
-            S3[1] = "Name:";
-            S3[2] = "Yes";
-            S3[3] = "to score:";
-            //
-            string[] S4 = new string[6];
-            S4[0] = "Sign in";
-            S4[1] = "Password:";
-            S4[2] = "Score:";
-            S4[3] = "No";
-            S4[4] = "Sign out";
-            S4[5] = "New Score";
-            //
-            string[] S5 = new string[3];
-            S5[0] = "Sign up";
-            S5[1] = "Skip day";
-            S5[2] = "Per:";
-            //
-            string[] S6 = new string[4];
-            S6[0] = "Skip day";
-            S6[1] = "Exit";
-            S6[2] = "Close";
-            S6[3] = "Frozen";
-            //
-            string[] S7 = new string[2];
-            S7[0] = "Exit";
-            S6[1] = "Transfer";
-            //
-            string S8 = "Exit";
+                
+                //Page 1
+                if (page == 1)
+                {
+                    //str
+                    if (strings == 1)
+                    {
+                        Console.Clear();
+                        Console.WriteLine(">>" + S0);
+                        Console.WriteLine(S);
+                        Console.WriteLine(S1);
+                        Console.WriteLine(S2);
+                        Console.WriteLine(S3);
+                        Console.WriteLine(S25);
+                        Console.WriteLine(S20);
+                    }
+                    else if (strings == 2)
+                    {
+                        Console.Clear();
+                        Console.WriteLine(S0);
+                        Console.WriteLine(S);
+                        Console.WriteLine(">>" + S1);
+                        Console.WriteLine(S2);
+                        Console.WriteLine(S3);
+                        Console.WriteLine(S25);
+                        Console.WriteLine(S20);
+                    }
+                    else if (strings == 3)
+                    {
+                        Console.Clear();
+                        Console.WriteLine(S0);
+                        Console.WriteLine(S);
+                        Console.WriteLine(S1);
+                        Console.WriteLine(S2);
+                        Console.WriteLine(">>" + S3);
+                        Console.WriteLine(S25);
+                        Console.WriteLine(S20);
+                    }
+                    else if (strings == 4)
+                    {
+                        Console.Clear();
+                        Console.WriteLine(S0);
+                        Console.WriteLine(S);
+                        Console.WriteLine(S1);
+                        Console.WriteLine(S2);
+                        Console.WriteLine(">>" + S3);
+                        Console.WriteLine(S25);
+                        Console.WriteLine(S20);
+                    }
+                    else if (strings == 5)
+                    {
+                        Console.Clear();
+                        Console.WriteLine(S0);
+                        Console.WriteLine(S);
+                        Console.WriteLine(S1);
+                        Console.WriteLine(S2);
+                        Console.WriteLine(S3);
+                        Console.WriteLine(">>" + S25);
+                        Console.WriteLine(S20);
+                    }
+                    else if (strings == 6) {
+                        Console.Clear();
+                        Console.WriteLine(S0);
+                        Console.WriteLine(S);
+                        Console.WriteLine(S1);
+                        Console.WriteLine(S2);
+                        Console.WriteLine(S3);
+                        Console.WriteLine(S25);
+                        Console.WriteLine(">>" + S20);
+                    }
+
+                }
+                //
+
+                //Page2
+                if (page == 2) {
+                    Console.WriteLine(S1);
+                    Console.WriteLine(S);
+                }
+                //
+
+                //Page3
+                if (page == 3) {
+                    Console.WriteLine(S2);
+                    Console.WriteLine(S);
+                    Console.WriteLine(S12);
+                    Console.WriteLine(S13);
+                }
+
+                //Page4
+                if (page == 4) {
+                    Console.WriteLine(S);
+                    Console.WriteLine(S17);
+                }
+
+                //Page5
+                if (page == 5) {
+                    Console.WriteLine(S3);
+                    Console.WriteLine(S);
+                    Console.WriteLine(S12);
+                    Console.WriteLine(S13);
+                }
+                //
+
+                //Page6
+                if (page == 6) {
+                    if (strings == 1) {
+                        Console.WriteLine(S5);
+                        Console.WriteLine(S);
+                        Console.WriteLine(">>" + S14);
+                        Console.WriteLine(S15);
+                    } else if (strings == 2) {
+                        Console.WriteLine(S5);
+                        Console.WriteLine(S);
+                        Console.WriteLine(S14);
+                        Console.WriteLine(">>" + S15);
+                    }
+                }
             //
 
-            //Page 1
-            if (page == 1)
-            {
-                if (strings == 1) {
-                    Console.Clear();
-                    Console.WriteLine(">>" + S1[0]);
-                    Console.WriteLine(S2);
-                    Console.WriteLine(S3[0]);
-                    Console.WriteLine(S4[0]);
-                    Console.WriteLine(S5[0]);
-                    Console.WriteLine(S6[0]);
-                    Console.WriteLine(S7[0]);
-                }
-                if (strings == 2)
-                {
-                    Console.Clear();
-                    Console.WriteLine(S1[0]);
-                    Console.WriteLine(S2);
-                    Console.WriteLine(">>" + S3[0]);
-                    Console.WriteLine(S4[0]);
-                    Console.WriteLine(S5[0]);
-                    Console.WriteLine(S6[0]);
-                    Console.WriteLine(S7[0]);
-                }
-                if (strings == 3)
-                {
-                    Console.Clear();
-                    Console.WriteLine(S1[0]);
-                    Console.WriteLine(S2);
-                    Console.WriteLine(S3[0]);
-                    Console.WriteLine(">>" + S4[0]);
-                    Console.WriteLine(S5[0]);
-                    Console.WriteLine(S6[0]);
-                    Console.WriteLine(S7[0]);
-                }
-                if (strings == 4)
-                {
-                    Console.Clear();
-                    Console.WriteLine(S1[0]);
-                    Console.WriteLine(S2);
-                    Console.WriteLine(S3[0]);
-                    Console.WriteLine(S4[0]);
-                    Console.WriteLine(">>" + S5[0]);
-                    Console.WriteLine(S6[0]);
-                    Console.WriteLine(S7[0]);
-                }
-                if (strings == 5)
-                {
-                    Console.Clear();
-                    Console.WriteLine(S1[0]);
-                    Console.WriteLine(S2);
-                    Console.WriteLine(S3[0]);
-                    Console.WriteLine(S4[0]);
-                    Console.WriteLine(S5[0]);
-                    Console.WriteLine(">>" + S6[0]);
-                    Console.WriteLine(S7[0]);
-                }
-                if (strings == 6)
-                {
-                    Console.Clear();
-                    Console.WriteLine(S1[0]);
-                    Console.WriteLine(S2);
-                    Console.WriteLine(S3[0]);
-                    Console.WriteLine(S4[0]);
-                    Console.WriteLine(S5[0]);
-                    Console.WriteLine(S6[0]);
-                    Console.WriteLine(">>" + S7[0]);
-                }
-            }
         }
         //
     }

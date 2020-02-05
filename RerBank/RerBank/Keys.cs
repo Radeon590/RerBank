@@ -15,6 +15,7 @@ namespace RerBank
 
         //keyKnow
         public void keyKnow() {
+            bool works = true;
             //
             if (key == 'S') {
                 strings++;
@@ -25,13 +26,11 @@ namespace RerBank
             if ((int)key == 13) {
                 page++;
             }
-            if ((int)key == 27) {
-                page--;
-            }
             //
-            Window r = new Window(page, strings);
-            r.window();
-
+            while (works == true) {
+                Window r = new Window(page, strings);
+                r.window();
+            }
             //
         }
         //
