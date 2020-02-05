@@ -59,72 +59,63 @@ namespace RerBank
                 //Page 1
                 if (page == 1)
                 {
-                    //str
-                    if (strings == 1)
-                    {
-                        Console.Clear();
-                        Console.WriteLine(">>" + S0);
-                        Console.WriteLine(S);
-                        Console.WriteLine(S1);
-                        Console.WriteLine(S2);
-                        Console.WriteLine(S3);
-                        Console.WriteLine(S25);
-                        Console.WriteLine(S20);
-                    }
-                    else if (strings == 2)
-                    {
-                        Console.Clear();
-                        Console.WriteLine(S0);
-                        Console.WriteLine(S);
-                        Console.WriteLine(">>" + S1);
-                        Console.WriteLine(S2);
-                        Console.WriteLine(S3);
-                        Console.WriteLine(S25);
-                        Console.WriteLine(S20);
-                    }
-                    else if (strings == 3)
-                    {
-                        Console.Clear();
-                        Console.WriteLine(S0);
-                        Console.WriteLine(S);
-                        Console.WriteLine(S1);
-                        Console.WriteLine(S2);
-                        Console.WriteLine(">>" + S3);
-                        Console.WriteLine(S25);
-                        Console.WriteLine(S20);
-                    }
-                    else if (strings == 4)
-                    {
-                        Console.Clear();
-                        Console.WriteLine(S0);
-                        Console.WriteLine(S);
-                        Console.WriteLine(S1);
-                        Console.WriteLine(S2);
-                        Console.WriteLine(">>" + S3);
-                        Console.WriteLine(S25);
-                        Console.WriteLine(S20);
-                    }
-                    else if (strings == 5)
-                    {
-                        Console.Clear();
-                        Console.WriteLine(S0);
-                        Console.WriteLine(S);
-                        Console.WriteLine(S1);
-                        Console.WriteLine(S2);
-                        Console.WriteLine(S3);
-                        Console.WriteLine(">>" + S25);
-                        Console.WriteLine(S20);
-                    }
-                    else if (strings == 6) {
-                        Console.Clear();
-                        Console.WriteLine(S0);
-                        Console.WriteLine(S);
-                        Console.WriteLine(S1);
-                        Console.WriteLine(S2);
-                        Console.WriteLine(S3);
-                        Console.WriteLine(S25);
-                        Console.WriteLine(">>" + S20);
-                    }
+                //str
+                if (strings == 1)
+                {
+                    Console.Clear();
+                    Console.WriteLine(S0);
+                    Console.WriteLine(S);
+                    Console.WriteLine(">>" + S1);
+                    Console.WriteLine(S2);
+                    Console.WriteLine(S3);
+                    Console.WriteLine(S25);
+                    Console.WriteLine(S20);
+                }
+                else if (strings == 2) 
+                {
+
+                    Console.Clear();
+                    Console.WriteLine(S0);
+                    Console.WriteLine(S);
+                    Console.WriteLine(S1);
+                    Console.WriteLine(">>" + S2);
+                    Console.WriteLine(S3);
+                    Console.WriteLine(S25);
+                    Console.WriteLine(S20);
+                }
+                else if (strings == 3)
+                {
+                    Console.Clear();
+                    Console.WriteLine(S0);
+                    Console.WriteLine(S);
+                    Console.WriteLine(S1);
+                    Console.WriteLine(S2);
+                    Console.WriteLine(">>" + S3);
+                    Console.WriteLine(S25);
+                    Console.WriteLine(S20);
+                }
+                else if (strings == 4)
+                {
+                    Console.Clear();
+                    Console.WriteLine(S0);
+                    Console.WriteLine(S);
+                    Console.WriteLine(S1);
+                    Console.WriteLine(S2);
+                    Console.WriteLine(S3);
+                    Console.WriteLine(">>" + S25);
+                    Console.WriteLine(S20);
+                }
+                else if (strings == 5)
+                {
+                    Console.Clear();
+                    Console.WriteLine(S0);
+                    Console.WriteLine(S);
+                    Console.WriteLine(S1);
+                    Console.WriteLine(S2);
+                    Console.WriteLine(S3);
+                    Console.WriteLine(S25);
+                    Console.WriteLine(">>" + S20);
+                }
 
                 }
                 //
