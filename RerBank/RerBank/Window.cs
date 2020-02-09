@@ -7,7 +7,6 @@ namespace RerBank
     {
 
         //Values
-        public bool works = true;
         private int page;
         private int strings;
         //
@@ -62,7 +61,6 @@ namespace RerBank
                 //str
                 if (strings == 1)
                 {
-                    Console.Clear();
                     Console.WriteLine(S0);
                     Console.WriteLine(S);
                     Console.WriteLine(">>" + S1);
@@ -74,7 +72,6 @@ namespace RerBank
                 else if (strings == 2) 
                 {
 
-                    Console.Clear();
                     Console.WriteLine(S0);
                     Console.WriteLine(S);
                     Console.WriteLine(S1);
@@ -85,7 +82,6 @@ namespace RerBank
                 }
                 else if (strings == 3)
                 {
-                    Console.Clear();
                     Console.WriteLine(S0);
                     Console.WriteLine(S);
                     Console.WriteLine(S1);
@@ -96,7 +92,6 @@ namespace RerBank
                 }
                 else if (strings == 4)
                 {
-                    Console.Clear();
                     Console.WriteLine(S0);
                     Console.WriteLine(S);
                     Console.WriteLine(S1);
@@ -107,7 +102,6 @@ namespace RerBank
                 }
                 else if (strings == 5)
                 {
-                    Console.Clear();
                     Console.WriteLine(S0);
                     Console.WriteLine(S);
                     Console.WriteLine(S1);

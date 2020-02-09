@@ -3,9 +3,9 @@ namespace RerBank
 {
     class Keys
     {
-        private int page = 1;
+        private int page;
         private char key;
-        private int strings = 1;
+        private int strings;
 
         //Constructor
         public Keys(char key) {
@@ -15,16 +15,19 @@ namespace RerBank
 
         //keyKnow
         public void keyKnow() {
-            bool works = true;
+
+            Console.Clear();
+
             //
-            if (key == 'S') {
+            if (key == 's') {
                 strings++;
             } 
-            if (key == 'W') { 
+            if (key == 'w') { 
             strings--;
             }
             //Enter
             if ((int)key == 13) {
+
 
                 //P1
                 if (page == 1) {
@@ -72,12 +75,8 @@ namespace RerBank
             }
             //
 
-            //
-            while (works == true) {
                 Window r = new Window(page, strings);
                 r.window();
-            }
-            //
         }
         //
     }
