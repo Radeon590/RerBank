@@ -3,9 +3,9 @@ namespace RerBank
 {
     class Keys
     {
-        private int page;
+        private int page = 1;
         private char key;
-        private int strings;
+        private int strings = 1;
 
         //Constructor
         public Keys(char key) {
@@ -18,13 +18,15 @@ namespace RerBank
 
             Console.Clear();
 
-            //
-            if (key == 's') {
+            //StringsChange
+            if ((int)key == 83) {
                 strings++;
             } 
-            if (key == 'w') { 
+            if ((int)key == 87) { 
             strings--;
             }
+            //
+
             //Enter
             if ((int)key == 13) {
 
